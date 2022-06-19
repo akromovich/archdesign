@@ -1,0 +1,470 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-14 21:34+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\archdesign_site\settings.py:124
+msgid "Uzbek"
+msgstr ""
+
+#: .\archdesign_site\settings.py:125
+msgid "Russian"
+msgstr ""
+
+#: .\archdesign_site\settings.py:126
+msgid "English"
+msgstr ""
+
+#: .\blog\templates\blog\about.html:57 .\blog\templates\blog\contact.html:50
+#: .\blog\templates\blog\index.html:63 .\blog\templates\blog\news.html:50
+#: .\blog\templates\blog\project.html:50 .\blog\templates\blog\projects.html:50
+#: .\blog\templates\blog\services.html:50
+msgid "Bosh sahifa"
+msgstr "Home"
+
+#: .\blog\templates\blog\about.html:60 .\blog\templates\blog\about.html:334
+#: .\blog\templates\blog\contact.html:53 .\blog\templates\blog\contact.html:253
+#: .\blog\templates\blog\index.html:66 .\blog\templates\blog\index.html:191
+#: .\blog\templates\blog\index.html:306 .\blog\templates\blog\news.html:53
+#: .\blog\templates\blog\news.html:178 .\blog\templates\blog\project.html:53
+#: .\blog\templates\blog\project.html:188
+#: .\blog\templates\blog\projects.html:53
+#: .\blog\templates\blog\projects.html:198
+#: .\blog\templates\blog\services.html:53
+#: .\blog\templates\blog\services.html:257
+msgid "Biz haqimizda"
+msgstr "About us"
+
+#: .\blog\templates\blog\about.html:63 .\blog\templates\blog\about.html:337
+#: .\blog\templates\blog\contact.html:56 .\blog\templates\blog\contact.html:256
+#: .\blog\templates\blog\index.html:69 .\blog\templates\blog\index.html:309
+#: .\blog\templates\blog\news.html:56 .\blog\templates\blog\news.html:181
+#: .\blog\templates\blog\project.html:56 .\blog\templates\blog\project.html:191
+#: .\blog\templates\blog\projects.html:56
+#: .\blog\templates\blog\projects.html:201
+#: .\blog\templates\blog\services.html:56
+#: .\blog\templates\blog\services.html:260
+msgid "Loyihalar"
+msgstr "Projects"
+
+#: .\blog\templates\blog\about.html:66 .\blog\templates\blog\about.html:340
+#: .\blog\templates\blog\contact.html:59 .\blog\templates\blog\contact.html:259
+#: .\blog\templates\blog\index.html:72 .\blog\templates\blog\index.html:312
+#: .\blog\templates\blog\news.html:59 .\blog\templates\blog\news.html:184
+#: .\blog\templates\blog\project.html:59 .\blog\templates\blog\project.html:194
+#: .\blog\templates\blog\projects.html:59
+#: .\blog\templates\blog\projects.html:204
+#: .\blog\templates\blog\services.html:59
+#: .\blog\templates\blog\services.html:263
+msgid "Xizmatlar"
+msgstr "Services"
+
+#: .\blog\templates\blog\about.html:69 .\blog\templates\blog\about.html:343
+#: .\blog\templates\blog\contact.html:62 .\blog\templates\blog\contact.html:262
+#: .\blog\templates\blog\index.html:75 .\blog\templates\blog\index.html:315
+#: .\blog\templates\blog\news.html:62 .\blog\templates\blog\news.html:120
+#: .\blog\templates\blog\news.html:187 .\blog\templates\blog\project.html:62
+#: .\blog\templates\blog\project.html:197
+#: .\blog\templates\blog\projects.html:62
+#: .\blog\templates\blog\projects.html:207
+#: .\blog\templates\blog\services.html:62
+#: .\blog\templates\blog\services.html:266
+msgid "Yangiliklar"
+msgstr "News"
+
+#: .\blog\templates\blog\about.html:72 .\blog\templates\blog\contact.html:65
+#: .\blog\templates\blog\index.html:78 .\blog\templates\blog\news.html:65
+#: .\blog\templates\blog\project.html:65 .\blog\templates\blog\projects.html:65
+#: .\blog\templates\blog\services.html:65
+msgid "Boglanish"
+msgstr "Connection"
+
+#: .\blog\templates\blog\about.html:128
+msgid "Korxonamiz haqida"
+msgstr "About our company"
+
+#: .\blog\templates\blog\about.html:130 .\blog\templates\blog\index.html:188
+#| msgid ""
+#| "“Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, "
+#| "arxitektura-qurilish vazifalarini kompleks ishlab chiqish asosida "
+#| "qurilish sohasida  loyiha yechimlarini amalga oshirishga ixtisoslashgan. "
+#| "Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus "
+#| "obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va "
+#| "dizayn xizmatlarining toʻliq spektrini taklif etamiz. Biz ustuvor "
+#| "strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura "
+#| "nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi "
+#| "loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz."
+msgid ""
+"“Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, "
+"arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. "
+"Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus "
+"obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn "
+"xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik "
+"tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha "
+"bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat "
+"va maqbul narxlarda amalga oshiramiz."
+msgstr ""
+"Founded in 2017 by Arch Design Service, Construction on the basis of complex "
+"development of architectural and construction tasksspecializes in the "
+"implementation of project solutions in the field. Today weto our clients "
+"from residential complexes, state, administrative, special facilitiesDesign "
+"and design from country houses and interiorsWe offer a full range of "
+"services. We are a strategic priorityfrom sketch to architectural control, "
+"following the principleHigh quality of large, complex, science-intensive "
+"projectsand we do it at reasonable prices."
+
+#: .\blog\templates\blog\about.html:156
+msgid "Nega aynan biz"
+msgstr "Why exactly us"
+
+#: .\blog\templates\blog\about.html:163
+msgid "MUHANDISLIK"
+msgstr "ENGINEERING"
+
+#: .\blog\templates\blog\about.html:165
+#| msgid ""
+#| "Texnik-iqtisodiy asos – Loyihalash loyihasi – Loyiha – Batafsil "
+#| "loyihalash – Ishchi hujjatlar"
+msgid ""
+"Texnik-iqtisodiy asos – Homaki loyihalash - Batafsil loyihalash – Ishchi "
+"hujjatlar"
+msgstr ""
+"Feasibility Study - Design Project - Project - Detailed Design - “Working "
+"Papers"
+
+#: .\blog\templates\blog\about.html:174
+msgid "LOYIHA BOSHQARUVI"
+msgstr "PROJECT MANAGEMENT"
+
+#: .\blog\templates\blog\about.html:176
+#| msgid ""
+#| "Rejalashtirish va ishni tashkil qilish, byudjetni tuzish, logistika – "
+#| "tizimlarni mijozga etkazib berish"
+msgid ""
+"Rejalashtirish va ishni tashkil qilish, byudjetni tuzish, logistika – "
+"tizimlarni mijozga yetkazib berish"
+msgstr ""
+"Planning and work organization, budgeting, logistics - delivery of systems "
+"to the customer"
+
+#: .\blog\templates\blog\about.html:185
+msgid "TEXNIK XIZMAT KORSATISH"
+msgstr "MAINTENANCE"
+
+#: .\blog\templates\blog\about.html:187
+msgid ""
+"Uskunalar va materiallarni o’rnatish – ishga tushirish ishlari – texnik "
+"yordam"
+msgstr ""
+"Installation of equipment and materials - commissioning - technical help"
+
+#: .\blog\templates\blog\about.html:238
+msgid "Ofis binolari"
+msgstr "Office buildings"
+
+#: .\blog\templates\blog\about.html:245
+msgid "Bolalar bog’chalari"
+msgstr "Kindergartens"
+
+#: .\blog\templates\blog\about.html:252
+msgid "Mehmonxonalar"
+msgstr "Hotels"
+
+#: .\blog\templates\blog\about.html:259
+msgid "Dam olish majmualari"
+msgstr "Recreation complexes"
+
+#: .\blog\templates\blog\about.html:266
+msgid "Zavod va Fabrikalar"
+msgstr "Factories and plants"
+
+#: .\blog\templates\blog\about.html:273
+msgid "Savdo markazlari"
+msgstr "Shopping centers"
+
+#: .\blog\templates\blog\about.html:280
+msgid "Turar-joy majmualari"
+msgstr "Residential complexes"
+
+#: .\blog\templates\blog\about.html:287
+msgid "Maktablar"
+msgstr "Schools"
+
+#: .\blog\templates\blog\about.html:325 .\blog\templates\blog\contact.html:168
+#: .\blog\templates\blog\contact.html:195
+#: .\blog\templates\blog\contact.html:244 .\blog\templates\blog\index.html:297
+#: .\blog\templates\blog\news.html:169 .\blog\templates\blog\project.html:179
+#: .\blog\templates\blog\projects.html:189
+#: .\blog\templates\blog\services.html:248
+msgid "г. Термез, ул. Шукрона, дом 15д"
+msgstr "c . Termez, st. Shukrona ,house 15"
+
+#: .\blog\templates\blog\about.html:331 .\blog\templates\blog\contact.html:250
+#: .\blog\templates\blog\index.html:303 .\blog\templates\blog\news.html:175
+#: .\blog\templates\blog\project.html:185
+#: .\blog\templates\blog\projects.html:195
+#: .\blog\templates\blog\services.html:254
+msgid "Malumot"
+msgstr "Reference"
+
+#: .\blog\templates\blog\about.html:353 .\blog\templates\blog\contact.html:272
+#: .\blog\templates\blog\index.html:325 .\blog\templates\blog\news.html:197
+#: .\blog\templates\blog\project.html:207
+#: .\blog\templates\blog\projects.html:217
+#: .\blog\templates\blog\services.html:276
+msgid "Все права защищены"
+msgstr "All rights reserved"
+
+#: .\blog\templates\blog\contact.html:119
+msgid "Biz bilan boglanish"
+msgstr "Contact us"
+
+#: .\blog\templates\blog\contact.html:121
+msgid "Xabar yuborish"
+msgstr "Send a message"
+
+#: .\blog\templates\blog\contact.html:140
+#: .\blog\templates\blog\project.html:140
+msgid "Yuborish"
+msgstr "Send"
+
+#: .\blog\templates\blog\contact.html:141
+#: .\blog\templates\blog\project.html:141
+msgid "Qayta yozish"
+msgstr "Rewrite"
+
+#: .\blog\templates\blog\contact.html:147
+msgid "Ofis"
+msgstr "Office"
+
+#: .\blog\templates\blog\contact.html:174
+msgid "Kadrlar bolimi"
+msgstr "Human resources"
+
+#: .\blog\templates\blog\index.html:144 .\blog\templates\blog\index.html:156
+#: .\blog\templates\blog\index.html:168 .\blog\templates\blog\services.html:119
+msgid "Bizning xizmatlarimiz"
+msgstr "Our services"
+
+#: .\blog\templates\blog\index.html:146
+#| msgid ""
+#| "Ichki va tashqi dizayn qishloq xo`jaligi, sanoat va suv xo`jaligi, "
+#| "qishloq xo`jaligi maqsadlarida obektlar va majmualarni qurish uchun "
+#| "loyiha-smeta hujjatlarini ishlab chiqish,shu jumladan ularning "
+#| "muhandislik tizimlarini loyihalash."
+msgid ""
+"Turar-joy, jamoat va sanoat binolari,majmualarini qurish uchun loyiha-smeta "
+"hujjatlarini ishlab chiqish,shu jumladan ularning muhandislik tizimlarini "
+"loyihalash.Ichki va tashqi dizaynini ishlab chiqish. "
+msgstr ""
+"Interior and exterior design Landscaping, civil, industrial water "
+"management, agriculture Design estimate for the construction of facilities "
+"and complexes for economic purposesdevelopment of documents, including their "
+"engineering systemsdesign."
+
+#: .\blog\templates\blog\index.html:148
+msgid "Batafsil malumot"
+msgstr "Learn more"
+
+#: .\blog\templates\blog\index.html:158
+msgid ""
+"Qurilish obektlarini kapital va joriy tamirlash uchun loyiha-smeta "
+"hujjatlari."
+msgstr ""
+"Design and estimate for capital and current repairs of construction sites "
+"documents."
+
+#: .\blog\templates\blog\index.html:170
+#| msgid ""
+#| "Arxitektura yodgorliklarini restavratsiya qilish uchun hujjatlar Bino va "
+#| "inshootlarning muhandislik tarmoqlari va tizimlarini loyihalash va "
+#| "mualliflik nazorati."
+msgid ""
+"Arxitektura yodgorliklarini restavratsiya loyihasini ishlab chiqish va "
+"mualliflik nazorati."
+msgstr ""
+"Documents for the restoration of architectural monuments Building and Design "
+"of engineering networks and systems of buildings andcopyright control."
+
+#: .\blog\templates\blog\index.html:200
+#| msgid ""
+#| "Bizning vazifamiz Bizning maqsadimiz – mijozning investitsiya niyati va "
+#| "xalqaro standartlar talablarini hisobga olgan holda, barcha zamonaviy "
+#| "texnologiyalar, fan yutuqlari, dizayn san’ati, etika, estetikadan "
+#| "foydalangan holda xavfsiz, samarali va yuqori texnologiyali loyihani "
+#| "ishlab chiqish va amalga oshirishdir. Loyihalash, qurilish va bosh pudrat "
+#| "ishlarini bajarishda Buyurtmachining moliyaviy resurslaridan oqilona "
+#| "foydalanishni ta’minlagan holda, taklif etilayotgan xizmatlar turlarini "
+#| "doimiy ravishda rivojlantirish, takomillashtirish va kengaytirishga "
+#| "intilamiz."
+msgid ""
+"Bizning vazifamiz – mijozning investitsiya niyati va xalqaro standartlar "
+"talablarini hisobga olgan holda, barcha zamonaviy texnologiyalar, fan "
+"yutuqlari, dizayn san’ati, etika, estetikadan foydalangan holda xavfsiz, "
+"samarali va yuqori texnologiyali loyihani ishlab chiqish va amalga "
+"oshirishdir. Loyihalash, qurilish va bosh pudrat ishlarini bajarishda "
+"buyurtmachining moliyaviy resurslaridan oqilona foydalanishni ta’minlagan "
+"holda, taklif etilayotgan xizmatlar turlarini doimiy ravishda "
+"rivojlantirish, takomillashtirish va kengaytirishga intilamiz."
+msgstr ""
+"Our mission Our goal is the client's investment intention and all modern, "
+"taking into account the requirements of international standardsfrom "
+"technology, science, design, ethics, aestheticsDevelop a safe, efficient and "
+"high-tech project usingis the output and implementation. Design, "
+"construction and general contracting workRational use of financial resources "
+"of the Customer in executionproviding the types of services offered on a "
+"regular basisstrive to develop, improve and expand."
+
+#: .\blog\templates\blog\index.html:202
+msgid "Batafsil"
+msgstr "Read more"
+
+#: .\blog\templates\blog\index.html:215
+msgid "Bizning ish jarayonimiz"
+msgstr "Our work process"
+
+#: .\blog\templates\blog\index.html:223
+#| msgid "Saytda sorov qoldiring yoki qongiroq qiling"
+msgid "Saytda so`rov qoldiring yoki qo`ng`iroq qiling"
+msgstr "Leave a request on the site or make a call"
+
+#: .\blog\templates\blog\index.html:232
+#| msgid "Menejer sizning kurilish obyektingizni bepul olchash uchun yozadi"
+msgid ""
+"Menejer sizning qurilish obyektingizni bepul o`lchash uchun ro`yxatdan "
+"o`tkazadi"
+msgstr "The manager writes to measure your construction object for free"
+
+#: .\blog\templates\blog\index.html:241
+#| msgid "Mutaxassis keladi, sizga maslahat beradi va olchov qiladi"
+msgid ""
+"Mutaxassis keladi, sizga maslahat beradi va o`lchash ishlarini olib boradi"
+msgstr "An expert will come, advise you and take measurements"
+
+#: .\blog\templates\blog\index.html:250
+#| msgid "Loyihani muhokama qilish, Shartnoma tuzish, Oldindan tolov"
+msgid "Loyihani muhokama qilish, shartnoma tuzish, oldindan to`lov"
+msgstr ""
+"Negotiation of the project, conclusion of the contract, advance payment"
+
+#: .\blog\templates\blog\index.html:258
+#| msgid "Obektni etkazib berish, Yakuniy tolov"
+msgid "Obyektni yetkazib berish, Yakuniy to`lov"
+msgstr "Delivery of the object, Final payment"
+
+#: .\blog\templates\blog\project.html:117
+msgid "foydalanuvchining ismi"
+msgstr "user name"
+
+#: .\blog\templates\blog\project.html:122
+msgid "Javob yozish"
+msgstr "Reply"
+
+#: .\blog\templates\blog\project.html:130
+msgid "Uzingizni izohingizni koldiring"
+msgstr "Leave your comment"
+
+#: .\blog\templates\blog\projects.html:122
+msgid "Bizning loyihalarimiz"
+msgstr "Our projects"
+
+#: .\blog\templates\blog\projects.html:140
+msgid "Boshqa Loyihalar"
+msgstr "Other Projects"
+
+#: .\blog\templates\blog\projects.html:146
+msgid "Batafsil maʼlumot "
+msgstr "Learn more"
+
+#: .\blog\templates\blog\projects.html:147
+msgid "Bu haqida"
+msgstr "About us"
+
+#: .\blog\templates\blog\services.html:130
+msgid "Interyer dizayini"
+msgstr "Interior design"
+
+#: .\blog\templates\blog\services.html:132
+#| msgid "Dizayn loyihasini va 3D vizualizatsiyasini yaratish"
+msgid "Dizayn loyihasi va 3D vizualizatsiyasini yaratish"
+msgstr "Creating a design project and 3D visualization"
+
+#: .\blog\templates\blog\services.html:145
+msgid "Tashqi dizayn"
+msgstr "Exterior design"
+
+#: .\blog\templates\blog\services.html:148
+#| msgid "Bino jabhasining tashqi korinishini yaratish"
+msgid "Binoning tashqi korinishini yaratish"
+msgstr "Creating the appearance of the facade of the building"
+
+#: .\blog\templates\blog\services.html:161
+msgid "Landshaft dizayni"
+msgstr "Landscape design"
+
+#: .\blog\templates\blog\services.html:163
+#| msgid "Yerlarni obodonlashtirish, bog‘ va bog‘ ko‘chatlarini tashkil etish"
+msgid "Yerlarni obodonlashtirish, bog‘ va manzarali hududlarni tashkil etish"
+msgstr "Landscaping, landscaping and gardening"
+
+#: .\blog\templates\blog\services.html:176
+msgid "Dizayn"
+msgstr "Design"
+
+#: .\blog\templates\blog\services.html:178
+#| msgid "Moljallangan obektning prototipini yaratish"
+msgid "Mo`ljallangan obyektning prototipini yaratish"
+msgstr "Creating a prototype of the intended object"
+
+#: .\blog\templates\blog\services.html:191
+msgid "Hujjatlar"
+msgstr "Documents"
+
+#: .\blog\templates\blog\services.html:193
+#| msgid "Ruxsatnomalarni yigish va rasmiylashtirish"
+msgid "Ruxsatnomalarni yig`ish va rasmiylashtirish"
+msgstr "Collection and registration of permits"
+
+#: .\blog\templates\blog\services.html:206
+msgid "Muallif nazorati"
+msgstr "Author control"
+
+#: .\blog\templates\blog\services.html:207
+#| msgid "Ozaro bogliqlik uchun arxitektor bilan tekshiring"
+msgid "O`zaro bog`liqlik uchun arxitektor bilan tekshirish"
+msgstr "Check with the architect for correlation"
+
+#~ msgid ""
+#~ "“Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib,"
+#~ "arxitektura-qurilish ishlarini kompleks ishlab chiqish asosida,loyiha "
+#~ "yechimlarini amalga oshirishga ixtisoslashgan.Bugun biz mijozlarimizga "
+#~ "maʼmuriy, maxsus obyektlari xamda turar-joy binolarini loyihalash va "
+#~ "interyer dizayn xizmatlarini taklif etamiz.Biz ustuvor strategik "
+#~ "tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha "
+#~ "bo‘lgan yirik,murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat "
+#~ "va maqbul narxlarda amalga oshiramiz."
+#~ msgstr ""
+#~ "Founded in 2017 by Arch Design Service, Construction on the basis of "
+#~ "complex development of architectural and construction tasksspecializes in "
+#~ "the implementation of project solutions in the field. Today weto our "
+#~ "clients from residential complexes, state, administrative, special "
+#~ "facilitiesDesign and design services for everything from houses and "
+#~ "interiorsWe offer a full range. We have followed a strategic "
+#~ "principlefrom sketch to architectural control to large, complex, "
+#~ "scientificImplement science-intensive projects at high quality and "
+#~ "reasonable priceswe increase."

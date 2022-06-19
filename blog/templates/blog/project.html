@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="ArchDesign" />
+        <meta name="description" content="Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.">
+        <meta name="keywords" content="archdesign, ArchDesign, arch & design, arch and design, architecture, archdesign.uz, arch design uz">
+        <meta property="og:title" content="ArchDesign">
+        <meta property="og:url" content="arch-design.uz">
+        <meta property="og:image" content="{% static 'img/footer_logo.png' %}">
+        <meta property="og:description" content="Arch design Service” kompaniyasi 2017-yilda tashkil etilgan bo‘lib, arxitektura-qurilish loyihalarini kompleks ishlab chiqishga ixtisoslashgan. Bugun biz mijozlarimizga turar-joy majmualari, davlat, maʼmuriy, maxsus obʼyektlardan tortib  dala uylari va interyerigacha boʻlgan dizayn va dizayn xizmatlarining toʻliq konseptsiyasini taklif etamiz. Biz ustuvor strategik tamoyilga amal qilgan holda eskizdan tortib arxitektura nazoratigacha bo‘lgan yirik, murakkab, ilm-fanni talab qiluvchi loyihalarni yuqori sifat va maqbul narxlarda amalga oshiramiz.">
+		<title>Arch Design</title>
+        <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
+		<title>Arch Design | Project</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+	</head>
+	<body>
+		<!-- * nav -->
+		<nav class="nav container">
+			<a class="nav__brand" href="{% url 'index' %}">
+				<img class="nav__logo" src="{% static 'img/Arch Design LOGO png.png' %}" alt="sitelogo" />
+			</a>
+			<div id="toggler" class="nav__toggle">
+				<svg id="toggler__img" width="100" height="100" viewBox="0 0 100 100">
+					<path
+						class="line line1"
+						d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+					/>
+					<path class="line line2" d="M 20,50 H 80" />
+					<path
+						class="line line3"
+						d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+					/>
+				</svg>
+			</div>
+			<div class="nav__lists">
+				<ul class="nav__list nav__list--links">
+					<li class="nav__item hidden">
+						<a class="nav__brand" href="#">
+							<img class="nav__logo" src="{% static 'img/logo.png' %}" alt="sitelogo" />
+						</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'index' %}">{% trans 'Bosh sahifa' %}</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'about' %}">{% trans 'Biz haqimizda' %}</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'projects' %}">{% trans 'Loyihalar' %}</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'services' %}">{% trans 'Xizmatlar' %}</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'news' %}">{% trans 'Yangiliklar' %}</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="{% url 'contacts' %}">{% trans 'Boglanish' %}</a>
+					</li>
+					</li>
+				</ul>
+				
+			</div>
+		</nav>
+		<!-- * article -->
+		<div class="container">
+			<div class="article">
+				<img
+						class="article__poster"
+                        src="{{all_posts.photo.url}}"
+                        alt="collage photo 1"
+					/>
+{#                <div class="article__collage">#}
+{#					<img#}
+{#						class="article__img"#}
+{#                        src="{{all_posts.photo.url}}"#}
+{#                        alt="collage photo 1"#}
+{#					/>#}
+{##}
+{#				</div>#}
+				<div class="article__info">
+
+
+					</div>
+				</div>
+				<h1 class="article__title">{{ all_posts.title|safe }}</h1>
+                <div class="article__collage">
+					{{ all_posts.text|safe }}
+				</div>
+{#				<p class="article__text">#}
+{#					{{ all_posts.text|safe }}#}
+{#				</p>#}
+			</div>
+		</div>
+		<!-- * comments -->
+		<div class="container">
+{#            {% for art in arts %}#}
+{#                <p>имя  пользователя: {{ art.title|safe }}</p>#}
+{#                <p>{{ art.text|safe }}</p><br>#}
+{#                <hr>#}
+{#            {% endfor %}#}
+
+            <div class="comments">
+
+                {% for art in arts %}
+                    <div class="comment">
+                        <img class="comment__img" src="{% static 'img/user.png' %}" alt="user">
+                        <div class="comment__box">
+
+                            <h3 class="comment__author">{% trans 'foydalanuvchining ismi' %}: {{ art.title|safe }}</h3>
+                            <div class="comment__text">
+                                {{ art.text|safe }}
+                            </div>
+                            <div class="comment__bottom">
+                                <button class="comment__reply">{% trans 'Javob yozish' %}</button>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+			</div>
+
+			<!-- ! comment form -->
+			<h2 class="comments__form-title">{% trans 'Uzingizni izohingizni koldiring' %}</h2>
+			<form class="comments__form" method="post">
+				{% csrf_token %}
+                <div class="comments__inputs">
+					{{ forms.title }}
+                    {{ forms.email }}
+				</div>
+				    {{ forms.text }}
+                    <span> {{ error }}</span>
+				<div class="comments__btnbox">
+					<button class="comments__btn" type="submit">{% trans 'Yuborish' %}</button>
+				    <button class="contacts__btn"  type="reset">{% trans 'Qayta yozish' %}</button>
+                </div>
+			</form>
+		</div>
+		<!-- * footer -->
+		<div class="footer">
+			<div class="footer__content">
+				<div class="container">
+					<div class="footer__top">
+						<div class="footer__contacts">
+							<a class="footer__brand" href="#">
+								<img
+									class="footer__logo"
+									src="{% static 'img/footer_logo.png' %}"
+									alt="footer logo"
+								/>
+							</a>
+							<div class="footer__line"></div>
+							<div class="footer__contactbox">
+								<a class="footer__contact" href="tel:+998 91 583 36 66">
+									<i class="fas fa-phone-alt footer__contact--icon"></i>
+									<span class="footer__contact--text">+998 91 583 36 66</span>
+								</a>
+							</div>
+							<div class="footer__contactbox">
+								<a class="footer__contact" href="mailto:info@archdesign.uz">
+									<i class="fas fa-envelope footer__contact--icon"></i>
+									<span class="footer__contact--text">info@archdesign.uz</span>
+								</a>
+							</div>
+							<div class="footer__contactbox">
+								<a
+									class="footer__contact"
+									href="https://www.google.com/maps/search/+%D0%B3.+%D0%A2%D0%B5%D1%80%D0%BC%D0%B5%D0%B7,/@37.2290345,67.2694544,18.74z"
+									target="_blank"
+								>
+									<i class="fas fa-map-marker-alt footer__contact--icon"></i>
+									<span class="footer__contact--text"
+										>{% trans 'г. Термез, ул. Шукрона, дом 15д' %}</span
+									>
+								</a>
+							</div>
+						</div>
+						<div class="footer__links">
+							<h3 class="footer__links--title">{% trans 'Malumot' %}</h3>
+							<ul class="footer__list">
+								<li class="footer__item">
+									<a class="footer__link" href="#">{% trans 'Biz haqimizda' %}</a>
+								</li>
+								<li class="footer__item">
+									<a class="footer__link" href="{% url 'projects' %}">{% trans 'Loyihalar' %}</a>
+								</li>
+								<li class="footer__item">
+									<a class="footer__link" href="{% url 'services' %}">{% trans 'Xizmatlar' %}</a>
+								</li>
+								<li class="footer__item">
+									<a class="footer__link" href="{% url 'news' %}">{% trans 'Yangiliklar' %}</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom-wrap">
+					<div class="container">
+						<div class="footer__bottom">
+							<div class="footer__copyright">
+								© 2022 Arch & Design Service, {% trans 'Все права защищены' %}
+							</div>
+							<ul class="footer__social">
+								<li class="footer__social--item">
+									<a class="footer__social--link" target="_blank" href="https://www.facebook.com/profile.php?id=100082099819128">
+										<i class="fab fa-facebook-f footer__social--icon"></i>
+									</a>
+								</li>
+								<li class="footer__social--item">
+									<a class="footer__social--link" target="_blank" href="https://t.me/arch_design_service">
+										<i class="fab fa-telegram-plane footer__social--icon"></i>
+									</a>
+								</li>
+								<li class="footer__social--item">
+									<a class="footer__social--link" target="_blank" href="https://www.instagram.com/arch_design_service_2017">
+										<i class="fab fa-instagram footer__social--icon"></i>
+									</a>
+								</li>
+								<li class="footer__social--item">
+									<a class="footer__social--link" target="_blank" href="https://www.youtube.com/channel/UCGQNd1FY2AbxoUl5Y2mI-Ww">
+										<i class="fab fa-youtube footer__social--icon"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- * menu curtain -->
+		<div id="menu-curtain"></div>
+		<!-- ! link js -->
+
+		<script src="{% static 'js/general.js' %}"></script>
+		<script src="{% static 'js/dropdown.js' %}"></script>
+		<script src="{% static 'js/nav.js' %}"></script>
+	</body>
+</html>

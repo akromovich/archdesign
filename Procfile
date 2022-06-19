@@ -1,0 +1,1 @@
+web: gunicorn archdesign.wsgi --log-file -
